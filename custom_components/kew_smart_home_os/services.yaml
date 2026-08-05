@@ -1,0 +1,22 @@
+install_assets:
+  name: KEW assets installieren
+  description: Installiert fehlende Theme-, Dashboard-, Package- und WWW-Dateien.
+  fields:
+    overwrite_existing:
+      name: Vorhandene Dateien überschreiben
+      description: Überschreibt bereits vorhandene Dateien, wenn aktiviert.
+      required: false
+      default: false
+      selector:
+        boolean:
+
+refresh_assets:
+  name: KEW assets aktualisieren
+  description: Kopiert alle mitgelieferten KEW-Dateien erneut in die Home-Assistant-Konfiguration.
+  fields:
+    overwrite_existing:
+      name: Vorhandene Dateien überschreiben
+      required: false
+      default: true
+      selector:
+        boolean:

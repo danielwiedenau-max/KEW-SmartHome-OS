@@ -1,0 +1,14 @@
+{
+  "title": "KEW Smart Home OS",
+  "config": {
+    "step": {
+      "user": {
+        "title": "KEW Smart Home OS installieren",
+        "description": "Installiert das KEW Premium Theme, Dashboard-Vorlagen und Ressourcen. Nach der Einrichtung Home Assistant neu starten und die Anleitung beachten."
+      }
+    },
+    "abort": {
+      "already_configured": "KEW Smart Home OS ist bereits eingerichtet."
+    }
+  }
+}
