@@ -1,10 +1,14 @@
 {
   "domain": "kew_smart_home_os",
   "name": "KEW Smart Home OS",
-  "codeowners": ["@danielwiedenau-max"],
+  "codeowners": [
+    "@danielwiedenau-max"
+  ],
   "config_flow": true,
   "documentation": "https://github.com/danielwiedenau-max/KEW-SmartHome-OS",
   "issue_tracker": "https://github.com/danielwiedenau-max/KEW-SmartHome-OS/issues",
-  "iot_class": "local_push",
+  "integration_type": "hub",
+  "iot_class": "calculated",
+  "requirements": [],
   "version": "1.0.0"
 }
