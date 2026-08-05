@@ -1,6 +1,0 @@
-{
-  "name": "KEW Smart Home OS",
-  "render_readme": true,
-  "homeassistant": "2026.3.0",
-  "hacs": "2.0.0"
-}
