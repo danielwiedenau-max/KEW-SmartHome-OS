@@ -1,0 +1,43 @@
+title: KEW Smart Home OS
+views:
+  - title: Home
+    path: home
+    icon: mdi:home-analytics
+    cards:
+      - type: markdown
+        content: |
+          # KEW Smart Home OS
+          Willkommen in deinem Smart Home.
+      - type: entities
+        title: Schnellzugriff
+        entities:
+          - light.wohnzimmer
+          - light.kueche
+          - climate.wohnzimmer
+
+  - title: Energie
+    path: energie
+    icon: mdi:solar-power
+    cards:
+      - type: gauge
+        entity: sensor.pv_leistung
+        name: PV-Leistung
+        min: 0
+        max: 15000
+      - type: entities
+        title: Energie
+        entities:
+          - sensor.hausverbrauch
+          - sensor.batterie_ladezustand
+          - sensor.netzleistung
+
+  - title: Pool
+    path: pool
+    icon: mdi:pool
+    cards:
+      - type: entities
+        title: Poolsteuerung
+        entities:
+          - sensor.pool_temperatur
+          - switch.pool_pumpe
+          - switch.pool_heizung

@@ -1,0 +1,21 @@
+install_assets:
+  name: KEW-Dateien installieren
+  description: Installiert Theme, Dashboard, Helfer und Webressourcen.
+  fields:
+    overwrite_existing:
+      name: Vorhandene Dateien überschreiben
+      required: false
+      default: false
+      selector:
+        boolean:
+
+refresh_assets:
+  name: KEW-Dateien aktualisieren
+  description: Kopiert alle gebündelten KEW-Dateien erneut.
+  fields:
+    overwrite_existing:
+      name: Vorhandene Dateien überschreiben
+      required: false
+      default: false
+      selector:
+        boolean:

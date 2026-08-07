@@ -1,0 +1,24 @@
+{
+  "title": "KEW Smart Home OS",
+  "config": {
+    "step": {
+      "user": {
+        "title": "KEW Smart Home OS einrichten",
+        "description": "Installiert das KEW Premium Theme, das Dashboard und optionale Helfer."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "KEW Smart Home OS ist bereits eingerichtet."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "status": {
+        "name": "Status",
+        "state": {
+          "ready": "Bereit"
+        }
+      }
+    }
+  }
+}
